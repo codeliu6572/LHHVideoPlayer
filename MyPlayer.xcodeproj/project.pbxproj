@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1AC3B5BC8B07C81C69329FD3 /* libPods-MyPlayerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AE489289F97E8CA95B3F8C /* libPods-MyPlayerUITests.a */; };
 		209A56E1BEC86C678B0D649A /* libPods-MyPlayerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE8238EC4C423465EEA8A2C /* libPods-MyPlayerTests.a */; };
+		680BA5A01E15FB01000A7454 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 680BA59F1E15FB01000A7454 /* 2.gif */; };
 		6893C35E1E10A8DB00D69E5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6893C35D1E10A8DB00D69E5D /* main.m */; };
 		6893C3611E10A8DB00D69E5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6893C3601E10A8DB00D69E5D /* AppDelegate.m */; };
 		6893C3641E10A8DB00D69E5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6893C3631E10A8DB00D69E5D /* ViewController.m */; };
@@ -67,6 +68,7 @@
 		20114E64CC248FB1C89E0D77 /* Pods-MyPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlayerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyPlayerTests/Pods-MyPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		36F98FDC3B24D69BD448DDCB /* libPods-MyPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3946DF15126E94FC708EFD12 /* Pods-MyPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyPlayer/Pods-MyPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		680BA59F1E15FB01000A7454 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
 		6893C3591E10A8DB00D69E5D /* MyPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6893C35D1E10A8DB00D69E5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6893C35F1E10A8DB00D69E5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				6893C3A11E10FF8800D69E5D /* LHHPlayerView.m */,
 				68E5B2FB1E126095001F899A /* VoiceLight.h */,
 				68E5B2FC1E126095001F899A /* VoiceLight.m */,
+				680BA59F1E15FB01000A7454 /* 2.gif */,
 				6893C3651E10A8DB00D69E5D /* Main.storyboard */,
 				68E5B2D01E11FD1C001F899A /* images */,
 				6893C3681E10A8DB00D69E5D /* Assets.xcassets */,
@@ -412,6 +415,7 @@
 				68E5B2ED1E11FD1C001F899A /* play_disable@2x.png in Resources */,
 				68E5B2E61E11FD1C001F899A /* fast_backward_nor@2x.png in Resources */,
 				68E5B2E81E11FD1C001F899A /* fast_forward_nor@2x.png in Resources */,
+				680BA5A01E15FB01000A7454 /* 2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
