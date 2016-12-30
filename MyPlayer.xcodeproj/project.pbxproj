@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AC3B5BC8B07C81C69329FD3 /* libPods-MyPlayerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AE489289F97E8CA95B3F8C /* libPods-MyPlayerUITests.a */; };
+		209A56E1BEC86C678B0D649A /* libPods-MyPlayerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE8238EC4C423465EEA8A2C /* libPods-MyPlayerTests.a */; };
 		6893C35E1E10A8DB00D69E5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6893C35D1E10A8DB00D69E5D /* main.m */; };
 		6893C3611E10A8DB00D69E5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6893C3601E10A8DB00D69E5D /* AppDelegate.m */; };
 		6893C3641E10A8DB00D69E5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6893C3631E10A8DB00D69E5D /* ViewController.m */; };
@@ -15,6 +17,32 @@
 		6893C36C1E10A8DB00D69E5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6893C36A1E10A8DB00D69E5D /* LaunchScreen.storyboard */; };
 		6893C3771E10A8DB00D69E5D /* MyPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6893C3761E10A8DB00D69E5D /* MyPlayerTests.m */; };
 		6893C3821E10A8DB00D69E5D /* MyPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6893C3811E10A8DB00D69E5D /* MyPlayerUITests.m */; };
+		6893C3941E10A9B700D69E5D /* LHHPlayerControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6893C3931E10A9B700D69E5D /* LHHPlayerControllerViewController.m */; };
+		6893C3961E10EC3C00D69E5D /* detail_play_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6893C3951E10EC3C00D69E5D /* detail_play_bg.png */; };
+		6893C39D1E10F36800D69E5D /* detail_backbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6893C39A1E10F36800D69E5D /* detail_backbtn.png */; };
+		6893C39E1E10F36800D69E5D /* detail_bg_playbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6893C39B1E10F36800D69E5D /* detail_bg_playbtn.png */; };
+		6893C39F1E10F36800D69E5D /* detail_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 6893C39C1E10F36800D69E5D /* detail_big.png */; };
+		6893C3A21E10FF8800D69E5D /* LHHPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6893C3A11E10FF8800D69E5D /* LHHPlayerView.m */; };
+		68E5B2E31E11FD1C001F899A /* backward_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E5B2D11E11FD1C001F899A /* backward_disable@2x.png */; };
+		68E5B2E41E11FD1C001F899A /* backward_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E5B2D21E11FD1C001F899A /* backward_nor@2x.png */; };
+		68E5B2E51E11FD1C001F899A /* fast_backward_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E5B2D31E11FD1C001F899A /* fast_backward_disable@2x.png */; };
+		68E5B2E61E11FD1C001F899A /* fast_backward_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E5B2D41E11FD1C001F899A /* fast_backward_nor@2x.png */; };
+		68E5B2E71E11FD1C001F899A /* fast_forward_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E5B2D51E11FD1C001F899A /* fast_forward_disable@2x.png */; };
+		68E5B2E81E11FD1C001F899A /* fast_forward_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E5B2D61E11FD1C001F899A /* fast_forward_nor@2x.png */; };
+		68E5B2E91E11FD1C001F899A /* forward_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E5B2D71E11FD1C001F899A /* forward_disable@2x.png */; };
+		68E5B2EA1E11FD1C001F899A /* forward_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E5B2D81E11FD1C001F899A /* forward_nor@2x.png */; };
+		68E5B2EB1E11FD1C001F899A /* pause_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E5B2D91E11FD1C001F899A /* pause_disable@2x.png */; };
+		68E5B2EC1E11FD1C001F899A /* pause_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E5B2DA1E11FD1C001F899A /* pause_nor@2x.png */; };
+		68E5B2ED1E11FD1C001F899A /* play_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E5B2DB1E11FD1C001F899A /* play_disable@2x.png */; };
+		68E5B2EE1E11FD1C001F899A /* play_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E5B2DC1E11FD1C001F899A /* play_nor@2x.png */; };
+		68E5B2EF1E11FD1C001F899A /* progressThumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E5B2DD1E11FD1C001F899A /* progressThumb@2x.png */; };
+		68E5B2F01E11FD1C001F899A /* video_brightness_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E5B2DE1E11FD1C001F899A /* video_brightness_bg@2x.png */; };
+		68E5B2F11E11FD1C001F899A /* video_num_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E5B2DF1E11FD1C001F899A /* video_num_bg@2x.png */; };
+		68E5B2F21E11FD1C001F899A /* video_num_front@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E5B2E01E11FD1C001F899A /* video_num_front@2x.png */; };
+		68E5B2F31E11FD1C001F899A /* video_tips@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E5B2E11E11FD1C001F899A /* video_tips@2x.png */; };
+		68E5B2F41E11FD1C001F899A /* video_volume_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E5B2E21E11FD1C001F899A /* video_volume_bg@2x.png */; };
+		68E5B2FD1E126095001F899A /* VoiceLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E5B2FC1E126095001F899A /* VoiceLight.m */; };
+		C7A131608FFCFA6234B6B920 /* libPods-MyPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F98FDC3B24D69BD448DDCB /* libPods-MyPlayer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +63,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09AE489289F97E8CA95B3F8C /* libPods-MyPlayerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyPlayerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20114E64CC248FB1C89E0D77 /* Pods-MyPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlayerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyPlayerTests/Pods-MyPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		36F98FDC3B24D69BD448DDCB /* libPods-MyPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3946DF15126E94FC708EFD12 /* Pods-MyPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyPlayer/Pods-MyPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		6893C3591E10A8DB00D69E5D /* MyPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6893C35D1E10A8DB00D69E5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6893C35F1E10A8DB00D69E5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +83,39 @@
 		6893C37D1E10A8DB00D69E5D /* MyPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6893C3811E10A8DB00D69E5D /* MyPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPlayerUITests.m; sourceTree = "<group>"; };
 		6893C3831E10A8DB00D69E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6893C3921E10A9B700D69E5D /* LHHPlayerControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHHPlayerControllerViewController.h; sourceTree = "<group>"; };
+		6893C3931E10A9B700D69E5D /* LHHPlayerControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHHPlayerControllerViewController.m; sourceTree = "<group>"; };
+		6893C3951E10EC3C00D69E5D /* detail_play_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail_play_bg.png; path = ../detail_play_bg.png; sourceTree = "<group>"; };
+		6893C39A1E10F36800D69E5D /* detail_backbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail_backbtn.png; path = ../detail_backbtn.png; sourceTree = "<group>"; };
+		6893C39B1E10F36800D69E5D /* detail_bg_playbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail_bg_playbtn.png; path = ../detail_bg_playbtn.png; sourceTree = "<group>"; };
+		6893C39C1E10F36800D69E5D /* detail_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail_big.png; path = ../detail_big.png; sourceTree = "<group>"; };
+		6893C3A01E10FF8800D69E5D /* LHHPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHHPlayerView.h; sourceTree = "<group>"; };
+		6893C3A11E10FF8800D69E5D /* LHHPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHHPlayerView.m; sourceTree = "<group>"; };
+		68E5B2D11E11FD1C001F899A /* backward_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backward_disable@2x.png"; sourceTree = "<group>"; };
+		68E5B2D21E11FD1C001F899A /* backward_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backward_nor@2x.png"; sourceTree = "<group>"; };
+		68E5B2D31E11FD1C001F899A /* fast_backward_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fast_backward_disable@2x.png"; sourceTree = "<group>"; };
+		68E5B2D41E11FD1C001F899A /* fast_backward_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fast_backward_nor@2x.png"; sourceTree = "<group>"; };
+		68E5B2D51E11FD1C001F899A /* fast_forward_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fast_forward_disable@2x.png"; sourceTree = "<group>"; };
+		68E5B2D61E11FD1C001F899A /* fast_forward_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fast_forward_nor@2x.png"; sourceTree = "<group>"; };
+		68E5B2D71E11FD1C001F899A /* forward_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward_disable@2x.png"; sourceTree = "<group>"; };
+		68E5B2D81E11FD1C001F899A /* forward_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward_nor@2x.png"; sourceTree = "<group>"; };
+		68E5B2D91E11FD1C001F899A /* pause_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause_disable@2x.png"; sourceTree = "<group>"; };
+		68E5B2DA1E11FD1C001F899A /* pause_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause_nor@2x.png"; sourceTree = "<group>"; };
+		68E5B2DB1E11FD1C001F899A /* play_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_disable@2x.png"; sourceTree = "<group>"; };
+		68E5B2DC1E11FD1C001F899A /* play_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_nor@2x.png"; sourceTree = "<group>"; };
+		68E5B2DD1E11FD1C001F899A /* progressThumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressThumb@2x.png"; sourceTree = "<group>"; };
+		68E5B2DE1E11FD1C001F899A /* video_brightness_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_brightness_bg@2x.png"; sourceTree = "<group>"; };
+		68E5B2DF1E11FD1C001F899A /* video_num_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_num_bg@2x.png"; sourceTree = "<group>"; };
+		68E5B2E01E11FD1C001F899A /* video_num_front@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_num_front@2x.png"; sourceTree = "<group>"; };
+		68E5B2E11E11FD1C001F899A /* video_tips@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_tips@2x.png"; sourceTree = "<group>"; };
+		68E5B2E21E11FD1C001F899A /* video_volume_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_volume_bg@2x.png"; sourceTree = "<group>"; };
+		68E5B2FB1E126095001F899A /* VoiceLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceLight.h; sourceTree = "<group>"; };
+		68E5B2FC1E126095001F899A /* VoiceLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceLight.m; sourceTree = "<group>"; };
+		97FFD08796EF396EB94D1FC0 /* Pods-MyPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyPlayerTests/Pods-MyPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		D74C5BAF2F63EC73865683C0 /* Pods-MyPlayerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlayerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyPlayerUITests/Pods-MyPlayerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D776AA245E4C49126D80DAE3 /* Pods-MyPlayerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlayerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyPlayerUITests/Pods-MyPlayerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFE8238EC4C423465EEA8A2C /* libPods-MyPlayerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyPlayerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F746616F060F1AC69F7D5236 /* Pods-MyPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyPlayer/Pods-MyPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A131608FFCFA6234B6B920 /* libPods-MyPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209A56E1BEC86C678B0D649A /* libPods-MyPlayerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +139,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AC3B5BC8B07C81C69329FD3 /* libPods-MyPlayerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4756E1978E5B76EE049FB50F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3946DF15126E94FC708EFD12 /* Pods-MyPlayer.debug.xcconfig */,
+				F746616F060F1AC69F7D5236 /* Pods-MyPlayer.release.xcconfig */,
+				20114E64CC248FB1C89E0D77 /* Pods-MyPlayerTests.debug.xcconfig */,
+				97FFD08796EF396EB94D1FC0 /* Pods-MyPlayerTests.release.xcconfig */,
+				D776AA245E4C49126D80DAE3 /* Pods-MyPlayerUITests.debug.xcconfig */,
+				D74C5BAF2F63EC73865683C0 /* Pods-MyPlayerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55D877CB3C8864EA3DFE425A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36F98FDC3B24D69BD448DDCB /* libPods-MyPlayer.a */,
+				EFE8238EC4C423465EEA8A2C /* libPods-MyPlayerTests.a */,
+				09AE489289F97E8CA95B3F8C /* libPods-MyPlayerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6893C3501E10A8DB00D69E5D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +176,8 @@
 				6893C3751E10A8DB00D69E5D /* MyPlayerTests */,
 				6893C3801E10A8DB00D69E5D /* MyPlayerUITests */,
 				6893C35A1E10A8DB00D69E5D /* Products */,
+				4756E1978E5B76EE049FB50F /* Pods */,
+				55D877CB3C8864EA3DFE425A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +198,14 @@
 				6893C3601E10A8DB00D69E5D /* AppDelegate.m */,
 				6893C3621E10A8DB00D69E5D /* ViewController.h */,
 				6893C3631E10A8DB00D69E5D /* ViewController.m */,
+				6893C3921E10A9B700D69E5D /* LHHPlayerControllerViewController.h */,
+				6893C3931E10A9B700D69E5D /* LHHPlayerControllerViewController.m */,
+				6893C3A01E10FF8800D69E5D /* LHHPlayerView.h */,
+				6893C3A11E10FF8800D69E5D /* LHHPlayerView.m */,
+				68E5B2FB1E126095001F899A /* VoiceLight.h */,
+				68E5B2FC1E126095001F899A /* VoiceLight.m */,
 				6893C3651E10A8DB00D69E5D /* Main.storyboard */,
+				68E5B2D01E11FD1C001F899A /* images */,
 				6893C3681E10A8DB00D69E5D /* Assets.xcassets */,
 				6893C36A1E10A8DB00D69E5D /* LaunchScreen.storyboard */,
 				6893C36D1E10A8DB00D69E5D /* Info.plist */,
@@ -140,6 +240,35 @@
 			path = MyPlayerUITests;
 			sourceTree = "<group>";
 		};
+		68E5B2D01E11FD1C001F899A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6893C3951E10EC3C00D69E5D /* detail_play_bg.png */,
+				6893C39A1E10F36800D69E5D /* detail_backbtn.png */,
+				6893C39B1E10F36800D69E5D /* detail_bg_playbtn.png */,
+				6893C39C1E10F36800D69E5D /* detail_big.png */,
+				68E5B2D11E11FD1C001F899A /* backward_disable@2x.png */,
+				68E5B2D21E11FD1C001F899A /* backward_nor@2x.png */,
+				68E5B2D31E11FD1C001F899A /* fast_backward_disable@2x.png */,
+				68E5B2D41E11FD1C001F899A /* fast_backward_nor@2x.png */,
+				68E5B2D51E11FD1C001F899A /* fast_forward_disable@2x.png */,
+				68E5B2D61E11FD1C001F899A /* fast_forward_nor@2x.png */,
+				68E5B2D71E11FD1C001F899A /* forward_disable@2x.png */,
+				68E5B2D81E11FD1C001F899A /* forward_nor@2x.png */,
+				68E5B2D91E11FD1C001F899A /* pause_disable@2x.png */,
+				68E5B2DA1E11FD1C001F899A /* pause_nor@2x.png */,
+				68E5B2DB1E11FD1C001F899A /* play_disable@2x.png */,
+				68E5B2DC1E11FD1C001F899A /* play_nor@2x.png */,
+				68E5B2DD1E11FD1C001F899A /* progressThumb@2x.png */,
+				68E5B2DE1E11FD1C001F899A /* video_brightness_bg@2x.png */,
+				68E5B2DF1E11FD1C001F899A /* video_num_bg@2x.png */,
+				68E5B2E01E11FD1C001F899A /* video_num_front@2x.png */,
+				68E5B2E11E11FD1C001F899A /* video_tips@2x.png */,
+				68E5B2E21E11FD1C001F899A /* video_volume_bg@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +276,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6893C3861E10A8DB00D69E5D /* Build configuration list for PBXNativeTarget "MyPlayer" */;
 			buildPhases = (
+				B02F50FC4E56729314D95BAD /* [CP] Check Pods Manifest.lock */,
 				6893C3551E10A8DB00D69E5D /* Sources */,
 				6893C3561E10A8DB00D69E5D /* Frameworks */,
 				6893C3571E10A8DB00D69E5D /* Resources */,
+				A4C48C87D2968624ECBC450E /* [CP] Embed Pods Frameworks */,
+				0A9B8176E7DDC41EDD54A7FC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +296,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6893C3891E10A8DB00D69E5D /* Build configuration list for PBXNativeTarget "MyPlayerTests" */;
 			buildPhases = (
+				17E7FE46D22255C948588F7C /* [CP] Check Pods Manifest.lock */,
 				6893C36E1E10A8DB00D69E5D /* Sources */,
 				6893C36F1E10A8DB00D69E5D /* Frameworks */,
 				6893C3701E10A8DB00D69E5D /* Resources */,
+				5B098A656E11658A000DA472 /* [CP] Embed Pods Frameworks */,
+				6F5B596F7093CDF031B73DBF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +317,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6893C38C1E10A8DB00D69E5D /* Build configuration list for PBXNativeTarget "MyPlayerUITests" */;
 			buildPhases = (
+				4C75126A5D4D863DB0BD7F01 /* [CP] Check Pods Manifest.lock */,
 				6893C3791E10A8DB00D69E5D /* Sources */,
 				6893C37A1E10A8DB00D69E5D /* Frameworks */,
 				6893C37B1E10A8DB00D69E5D /* Resources */,
+				2227337C123B30ADCC23A633 /* [CP] Embed Pods Frameworks */,
+				3C9DFDFEAFDEA2224556C6EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,8 +388,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				6893C36C1E10A8DB00D69E5D /* LaunchScreen.storyboard in Resources */,
+				68E5B2F41E11FD1C001F899A /* video_volume_bg@2x.png in Resources */,
+				68E5B2E71E11FD1C001F899A /* fast_forward_disable@2x.png in Resources */,
+				68E5B2EB1E11FD1C001F899A /* pause_disable@2x.png in Resources */,
+				6893C3961E10EC3C00D69E5D /* detail_play_bg.png in Resources */,
+				68E5B2F31E11FD1C001F899A /* video_tips@2x.png in Resources */,
 				6893C3691E10A8DB00D69E5D /* Assets.xcassets in Resources */,
+				6893C39D1E10F36800D69E5D /* detail_backbtn.png in Resources */,
+				68E5B2F11E11FD1C001F899A /* video_num_bg@2x.png in Resources */,
+				68E5B2EF1E11FD1C001F899A /* progressThumb@2x.png in Resources */,
+				6893C39F1E10F36800D69E5D /* detail_big.png in Resources */,
+				68E5B2F01E11FD1C001F899A /* video_brightness_bg@2x.png in Resources */,
+				68E5B2EE1E11FD1C001F899A /* play_nor@2x.png in Resources */,
+				68E5B2E41E11FD1C001F899A /* backward_nor@2x.png in Resources */,
+				68E5B2EA1E11FD1C001F899A /* forward_nor@2x.png in Resources */,
+				6893C39E1E10F36800D69E5D /* detail_bg_playbtn.png in Resources */,
+				68E5B2E31E11FD1C001F899A /* backward_disable@2x.png in Resources */,
+				68E5B2E91E11FD1C001F899A /* forward_disable@2x.png in Resources */,
+				68E5B2E51E11FD1C001F899A /* fast_backward_disable@2x.png in Resources */,
+				68E5B2F21E11FD1C001F899A /* video_num_front@2x.png in Resources */,
 				6893C3671E10A8DB00D69E5D /* Main.storyboard in Resources */,
+				68E5B2EC1E11FD1C001F899A /* pause_nor@2x.png in Resources */,
+				68E5B2ED1E11FD1C001F899A /* play_disable@2x.png in Resources */,
+				68E5B2E61E11FD1C001F899A /* fast_backward_nor@2x.png in Resources */,
+				68E5B2E81E11FD1C001F899A /* fast_forward_nor@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +431,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A9B8176E7DDC41EDD54A7FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyPlayer/Pods-MyPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17E7FE46D22255C948588F7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2227337C123B30ADCC23A633 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyPlayerUITests/Pods-MyPlayerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C9DFDFEAFDEA2224556C6EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyPlayerUITests/Pods-MyPlayerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C75126A5D4D863DB0BD7F01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5B098A656E11658A000DA472 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyPlayerTests/Pods-MyPlayerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F5B596F7093CDF031B73DBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyPlayerTests/Pods-MyPlayerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4C48C87D2968624ECBC450E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyPlayer/Pods-MyPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B02F50FC4E56729314D95BAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6893C3551E10A8DB00D69E5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6893C3A21E10FF8800D69E5D /* LHHPlayerView.m in Sources */,
 				6893C3641E10A8DB00D69E5D /* ViewController.m in Sources */,
 				6893C3611E10A8DB00D69E5D /* AppDelegate.m in Sources */,
+				6893C3941E10A9B700D69E5D /* LHHPlayerControllerViewController.m in Sources */,
 				6893C35E1E10A8DB00D69E5D /* main.m in Sources */,
+				68E5B2FD1E126095001F899A /* VoiceLight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +724,7 @@
 		};
 		6893C3871E10A8DB00D69E5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3946DF15126E94FC708EFD12 /* Pods-MyPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B2P95ADDC5;
@@ -435,6 +737,7 @@
 		};
 		6893C3881E10A8DB00D69E5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F746616F060F1AC69F7D5236 /* Pods-MyPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B2P95ADDC5;
@@ -447,6 +750,7 @@
 		};
 		6893C38A1E10A8DB00D69E5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20114E64CC248FB1C89E0D77 /* Pods-MyPlayerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = B2P95ADDC5;
@@ -460,6 +764,7 @@
 		};
 		6893C38B1E10A8DB00D69E5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97FFD08796EF396EB94D1FC0 /* Pods-MyPlayerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = B2P95ADDC5;
@@ -473,6 +778,7 @@
 		};
 		6893C38D1E10A8DB00D69E5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D776AA245E4C49126D80DAE3 /* Pods-MyPlayerUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = B2P95ADDC5;
 				INFOPLIST_FILE = MyPlayerUITests/Info.plist;
@@ -485,6 +791,7 @@
 		};
 		6893C38E1E10A8DB00D69E5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D74C5BAF2F63EC73865683C0 /* Pods-MyPlayerUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = B2P95ADDC5;
 				INFOPLIST_FILE = MyPlayerUITests/Info.plist;
@@ -514,6 +821,7 @@
 				6893C3881E10A8DB00D69E5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6893C3891E10A8DB00D69E5D /* Build configuration list for PBXNativeTarget "MyPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +830,7 @@
 				6893C38B1E10A8DB00D69E5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6893C38C1E10A8DB00D69E5D /* Build configuration list for PBXNativeTarget "MyPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +839,7 @@
 				6893C38E1E10A8DB00D69E5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
