@@ -35,7 +35,7 @@
 
 - (void)creatPlayerVC
 {
-    LHHPlayerControllerViewController *movieVC = [[LHHPlayerControllerViewController alloc]initWithHTTPLiveStreamingMediaURL:[NSURL URLWithString:@"http://flv.bn.netease.com/videolib3/1610/12/vtfiM7162/HD/vtfiM7162-mobile.mp4"]];
+    LHHPlayerControllerViewController *movieVC = [[LHHPlayerControllerViewController alloc]initWithHTTMediaURL:[NSURL URLWithString:@"http://flv.bn.netease.com/videolib3/1610/12/vtfiM7162/HD/vtfiM7162-mobile.mp4"]];
 //    movieVC.delegate = self;
     [self.navigationController pushViewController:movieVC animated:YES];
     
